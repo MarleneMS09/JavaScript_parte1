@@ -1,15 +1,35 @@
 //Tipos de datos
 //ALFANUMERICO
-const nombrePasajero = "Pedro Silva";
-console.log (nombrePasajero);
+//const nombrePasajero = "Pedro Silva";
+//console.log (nombrePasajero);
 
 //Númerico
-let valorBoleto= 1650;
-console.log(valorBoleto);
+const valorBoleto= 1000;
+const porcentajeTasaEmbarque = 60/100;
+const impuestoAeropuerto=100;
+const gestionAgencia = 100;
+//console.log(valorBoleto);
 
 //Lógicos (true,false)
 let boletoActivo =true;
 
 //Operaciones aritméticas
-let totalBoletos= 1700 + 65.45 + 100;
+//let totalBoletos= valorBoleto +  valorBoleto + tasaEmbarque + gestionAgencia;
+
+
+//Orden de precedencia 
+// ()
+//* y /
+//+ y -
+let totalBoletos = (valorBoleto + impuestoAeropuerto)*porcentajeTasaEmbarque + gestionAgencia;
 console.log (totalBoletos);
+
+//concatenación de texto 
+let nombrePasajero = "Leonardo";
+let apellidoPasajero= " De La Cruz";
+let nombreCompleto =nombrePasajero + apellidoPasajero;
+let pasaporte = '1000' + '12';
+let multiplicacion = '1000' /'10';
+console.log (nombreCompleto);
+console.log (pasaporte);
+console.log(multiplicacion);
