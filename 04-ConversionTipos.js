@@ -33,3 +33,5 @@ let multiplicacion = parseInt('1000') / parseFloat('10');
 console.log (nombreCompleto);
 console.log (pasaporte);
 console.log(multiplicacion);
+
+let noEsUnNumero = parseInt('AASASA');
