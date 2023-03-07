@@ -9,7 +9,7 @@ console.log (nombrePasajero);
 console.log(apellidoPasajero);
 //Palabra let
 //Espacio de memoria que pueda cambiar durante la ejecución del programa
-let nombreCompletoPasajero = nombrePasajero + " "  + apellidoPasajero;
+//let nombreCompletoPasajero = nombrePasajero + " "  + apellidoPasajero;
 //console.log(nombreCompletoPasajero);
 //palabra reservada var
 //Espacio de memoria que pueda cambiar durante la ejecución del programa
@@ -19,12 +19,12 @@ let nombreCompletoPasajero = nombrePasajero + " "  + apellidoPasajero;
 //{
 //    console.log(nombreCompletoPasajero);
 //}
-let nombreCompletodelPasajero = nombrePasajero + " " + apellidoPasajero;
+let nombreCompletoPasajero = nombrePasajero + " " + apellidoPasajero;
 console.log("Variable con let: "+ nombrePasajero + " " + apellidoPasajero);
-console.log("Variable con var: "+nombreCompletoDelPasajero);
+console.log("Variable con var: "+nombreCompletoPasajero);
 
 console.log("Variable con let: "+nombreCompletoPasajero);
-console.log("Variable con var: "+nombreCompledodelPasajero);
+console.log("Variable con var: "+nombreCompletoPasajero);
 
 
 
