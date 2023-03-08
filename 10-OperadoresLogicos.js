@@ -4,12 +4,13 @@ const ciudadesDisponibles = new Array("Bogota", "Lima", "Santiago", "Montevideo"
 
 //palabra reservada if 
 //evalua una condición 
-console.log(`Verificando pasajes para  ${ciudadDestino}`);
+/*console.log(`Verificando pasajes para  ${ciudadDestino}`);
 if (ciudadesDisponibles.indexOf (ciudadDestino) >= 0) {-
   console.log("Pasaje disponible para venta");
 } else {
     console.log ("Ciudad No disponible para viajar");
 }
+*/
 const valorPasaje = "1000";
 if (valorPasaje == 1000) {
     console.log('El pasaje vale 1000');
@@ -20,8 +21,23 @@ Por ejemplo si usamos === necesitamos que el valor y el valor de comparación se
 const valorPasaje = 1000;
 if (valorPasaje === 1000) {
     console.log('El pasaje vale 1000');
+
 }
 
+OPERADORES LÓGICOS
 
+//Y (AND) - O (OR) - NO (NOT)
+//AND = &&
+OR = ||
+//NOT | 
 
 */
+const edadPasajero = 19;
+
+
+console.log(`Verificando pasajes para  ${ciudadDestino}`);
+if ((ciudadesDisponibles.indexOf (ciudadDestino)) >= -1 && edadPasajero >=18) {-
+  console.log("Pasaje disponible para venta");
+} else {
+    console.log ("Ciudad No disponible para viajar");
+}
