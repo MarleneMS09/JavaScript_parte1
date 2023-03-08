@@ -15,6 +15,7 @@ if (ciudadesDisponibles.indexOf(ciudadDestino) > -1  &&
   console.log("Pasaje disponible para venta");
 } else {
     console.log ("Ciudad No disponible para viajar or pasajero no cumple las reglas");
-}
+} //forma para que se ejecuten las 3 condiciones 
+
 
 
