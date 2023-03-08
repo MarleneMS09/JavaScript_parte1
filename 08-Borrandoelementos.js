@@ -16,8 +16,12 @@ console.log(paisesDisponibles);
     ciudadesDisponibles.unshift('Quito');
     console.log(ciudadesDisponibles);
     console.log(paisesDisponibles); 
-    
+
+    //mostrando el primer elemento de la lista
     console.log(paisesDisponibles[0]);
     console.log(ciudadesDisponibles[0]);
+
+    paisesDisponibles.splice (1,2,"Venezuela") ; //si quiero eliminar colombia, y perú lo coloco así y si quiero agregar otros, lo pongo después
+    console.log(paisesDisponibles);
 
 }
