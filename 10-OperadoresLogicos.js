@@ -1,5 +1,5 @@
 //Operadores de comparación
-const ciudadDestino = "Santiago";
+const ciudadDestino = "Lima";
 const ciudadesDisponibles = new Array("Bogota", "Lima", "Santiago", "Montevideo");
 
 //palabra reservada if 
@@ -27,17 +27,24 @@ if (valorPasaje === 1000) {
 OPERADORES LÓGICOS
 
 //Y (AND) - O (OR) - NO (NOT)
-//AND = &&
-OR = ||
-//NOT | 
+//AND = && - se deben cumplir las dos condiciones 
+OR = || - se debe cumplor una condición al menos 
+//NOT | - NO se cumple la condición
 
 */
-const edadPasajero = 19;
-
+const edadPasajero = 31;
+const estaAcompañado = true;
 
 console.log(`Verificando pasajes para  ${ciudadDestino}`);
-if ((ciudadesDisponibles.indexOf (ciudadDestino)) >= -1 && edadPasajero >=18) {-
+if ((ciudadesDisponibles.indexOf(ciudadDestino) > -1 ) &&
+   ((edadPasajero >= 18 || estaAcompañado))) {
+if ((ciudadesDisponibles.indexOf (ciudadDestino)) > -1 && edadPasajero >= 18) {
   console.log("Pasaje disponible para venta");
 } else {
-    console.log ("Ciudad No disponible para viajar");
+    console.log ("Ciudad No disponible para viajar or pasajero no cumple las reglas");
 }
+}
+
+//aplicando lógica negativa
+
+
