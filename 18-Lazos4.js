@@ -32,22 +32,23 @@ const datos = [
     }, 
 ];
 const presupuestoDisponible = 600;
-let i=0;
+
 let ciudadSeleccionada = '';
 
 
-for (let i=0; index < Array.length; index++) {
-    const element = Array[index];
-}
-do {
-     /*console.log(datos[i].precio);
-    console.log (presupuestoDisponible); */
-    if (datos [i].precio < presupuestoDisponible) {
+for (let i = 0; i < datos.length  && ciudadSeleccionada == ''; i++) {
+
+    if (datos [i].precio <= presupuestoDisponible) {
         ciudadSeleccionada = datos[i].ciudad;
         break;
 }   
+}
+ /*do {
+     /*console.log(datos[i].precio);
+    console.log (presupuestoDisponible); */
+/*
  i++;
-} while (i < datos.length && ciudadSeleccionada == '') 
+} while (i < datos.length && ciudadSeleccionada == '')   */
 if (ciudadSeleccionada == '')
   console.log("No tenemos pasajes disponibles");
 else 
