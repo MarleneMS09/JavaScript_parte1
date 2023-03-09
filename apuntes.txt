@@ -1,1 +1,2 @@
-Sobre Javascript
+Los ejercicios de JS son sobre el curso Javascript y primeros pasos con el lenguaje realizados en ONE (Alura Latam) con la finalidad de prácticar 
+y consolidar conocimientos. 
