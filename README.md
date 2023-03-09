@@ -29,5 +29,9 @@ MarleneMS09
 
 *[Conclusión](#conclusión)
 Apuntes y ejercicios para aprobar especialización Front-end. 
+<br>
+<br>
+<br>
+<br>
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
-## Autores
+
